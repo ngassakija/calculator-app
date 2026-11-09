@@ -1,0 +1,85 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1e1e2f;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.calculator {
+    background-color: #2d2d44;
+    padding: 25px;
+    border-radius: 15px;
+    width: 320px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+#display {
+    width: 100%;
+    height: 60px;
+    margin-bottom: 15px;
+    font-size: 25px;
+    text-align: right;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #eeeeee;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+
+/* Number buttons */
+button {
+    height: 55px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #3b3b55;
+    color: white;
+    transition: 0.3s;
+}
+
+/* Hover effect */
+button:hover {
+    background-color: #555577;
+    transform: scale(1.05);
+}
+
+/* Operator buttons */
+button:nth-child(4n) {
+    background-color: #ff9500;
+    color: white;
+}
+
+/* Equal button */
+button:nth-child(15) {
+    background-color: #00b894;
+    color: white;
+}
+
+/* Clear button */
+button:nth-child(17) {
+    background-color: #e74c3c;
+    color: white;
+}
+

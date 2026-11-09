@@ -6,14 +6,13 @@
 }
 
 body {
-    background-color: #1e1e2f;
+    background: linear-gradient(135deg, #0f172a, #1e293b, #334155);
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
 }
-
 .calculator {
     background-color: #2d2d44;
     padding: 25px;

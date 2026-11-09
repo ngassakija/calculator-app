@@ -5,7 +5,8 @@
     box-sizing: border-box;
 }
 
-body {
+
+*body {
     background: linear-gradient(135deg, #0f172a, #1e293b, #334155);
     font-family: Arial, sans-serif;
     display: flex;
